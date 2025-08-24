@@ -7,6 +7,11 @@
 - GitHub Repo: https://github.com/from-friends/artalert
 - Demo Video: https://vimeo.com/fromfriends
 
+## ⚫ What is ArtAlert?
+
+ArtAlert is an AI agent that monitors digital art marketplaces and delivers instant notifications based on your personalized alerts.
+
+---
 
 ## ✨ Story
 

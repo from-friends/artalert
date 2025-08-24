@@ -1,2 +1,1 @@
-# artalert
-ArtAlert AI Agent
+# ArtAlert

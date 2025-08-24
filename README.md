@@ -1,13 +1,13 @@
 ![artalert-logo](public/artalert-logo.png)
 
-# ⚫ ArtAlert: Your AI Agent for NFT Notifications
+# 🟡 ArtAlert: Your AI Agent for NFT Notifications
 > Built by FromFriends™ in 36 hours for the Shapecraft² hackathon.
 
 - Live Demo: https://artalert.vercel.app
 - GitHub Repo: https://github.com/from-friends/artalert
 - Demo Video: https://vimeo.com/1112688820
 
-## ⚫ What is ArtAlert?
+## 🟡 What is ArtAlert?
 
 ArtAlert is an AI agent that monitors digital art marketplaces and delivers instant notifications based on your personalized alerts.
 
@@ -18,6 +18,74 @@ ArtAlert is an AI agent that monitors digital art marketplaces and delivers inst
 I’m a developer and digital art collector who was often missing out on new drops from my favorite artists, offers, and great NFT deals.  
 To solve this, I built **ArtAlert**, your personal AI agent that continuously monitors digital art marketplaces and instantly sends notifications based on personalized alert lists.
 
+## 🔔 Use Cases / Example Prompts
+
+<details>
+<summary><strong>Price</strong></summary>
+
+- Floor drops 10%  
+- Price below target  
+- Floor up 20% in a week  
+- Price crosses avg  
+
+</details>
+
+<details>
+<summary><strong>Artist</strong></summary>
+
+- New drop  
+- Artwork burned/delisted  
+- New series  
+
+</details>
+
+<details>
+<summary><strong>Artwork</strong></summary>
+
+- New offer  
+- Listed for sale  
+- Sold to top collector  
+- Transferred  
+
+</details>
+
+<details>
+<summary><strong>Collection</strong></summary>
+
+- Volume spike  
+- Holder change  
+- Royalty change  
+- Whale buying  
+
+</details>
+
+<details>
+<summary><strong>Offers & Bids</strong></summary>
+
+- Offer near/above ask  
+- You got outbid  
+- Bidding war  
+
+</details>
+
+<details>
+<summary><strong>Wallets</strong></summary>
+
+- Whale buys/sells  
+- New listings  
+- Floor sweep  
+
+</details>
+
+<details>
+<summary><strong>Market</strong></summary>
+
+- Metadata reveal  
+- New marketplace support  
+- Verified collection  
+- Airdrop/reward  
+
+</details>
 
 ## 💡 Next Steps & Future Vision
 

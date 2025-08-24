@@ -141,25 +141,9 @@ ArtAlert is built on a robust and scalable architecture, leveraging the power of
 
 
 
-+-----------+          +-------------------------+          +-----------+
-|           |          |                         |          |           |
-| ArtAlert  +---------> Store Alert Prompts on   +--------->|  Vercel   |
-|   User    |          |         Vercel          |          |  Server   |
-|           |          |                         |          |           |
-+-----------+          +-----------+-------------+          +-----+-----+
-                                    |                          |
-                                    | Query every minute       |
-                                    v                          |
-                          +--------------------+               |
-                          | Shape MCP Server   |<--------------+
-                          +--------------------+
-                                    |
-                                    v
-                        +----------------------------+
-                        |  Vercel checks MCP response|
-                        |  If criteria met → Send    |
-                        |  email to user             |
-                        +----------------------------+
+## App Architecture
+
+<img src="public/app-architecture.png" alt="App Architecture" width="600">
 
 
 ## Current Status of this Prototype

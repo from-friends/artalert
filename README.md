@@ -15,7 +15,7 @@ This project is a submission for the Shape Shapecraft² Hackathon. ArtAlert uses
 
 ## 🟡 What is ArtAlert?
 
-ArtAlert is an AI agent that monitors digital art marketplaces and delivers instant notifications based on your personalized alerts.
+ArtAlert is an AI agent that monitors digital art marketplaces using the Shape MCP and delivers instant notifications based on your personalized alerts.
 
 ## ✨ Story
 

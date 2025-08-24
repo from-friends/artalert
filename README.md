@@ -139,6 +139,36 @@ ArtAlert is built on a robust and scalable architecture, leveraging the power of
 - **Serverless API Routes**: CRUD operations for alerts (Create, Read, Update, Delete) are handled via Next.js API routes (`/api/alerts`). These routes are deployed as **serverless functions** on Vercel, offering automatic scaling, cost-efficiency, and high availability.
 - **Client-Side React**: The interactive user interface, including dynamic search, alert management, and real-time feedback (toast notifications), is powered by React hooks, providing a smooth and responsive user experience.
 
+
+
++-----------+          +-------------------------+          +-----------+
+|           |          |                         |          |           |
+| ArtAlert  +---------> Store Alert Prompts on   +--------->|  Vercel   |
+|   User    |          |         Vercel          |          |  Server   |
+|           |          |                         |          |           |
++-----------+          +-----------+-------------+          +-----+-----+
+                                    |                          |
+                                    | Query every minute       |
+                                    v                          |
+                          +--------------------+               |
+                          | Shape MCP Server   |<--------------+
+                          +--------------------+
+                                    |
+                                    v
+                        +----------------------------+
+                        |  Vercel checks MCP response|
+                        |  If criteria met → Send    |
+                        |  email to user             |
+                        +----------------------------+
+
+
+## Current Status of this Prototype
+
+It turned out that the scope of this hackathon project was too ambitious for 36 hours.
+I ran out of time implementing Alchemy for searching NFTs on Shape (currently using mock data instead) and connecting the Shape MCP server to the Vercel serverless function with scheduled invocations for querying.
+
+I’m eager to bring these features to life and evolve this prototype into a full-fledged product!
+
 ## Developer
 
 - **[FromFriends™](https://from-friends.github.io/)**: Creative developer focused on building innovative platforms that empower users in the Web3 ecosystem through thoughtful design and technology.
